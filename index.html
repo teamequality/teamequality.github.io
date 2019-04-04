@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Equality Esports</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" href="./assets/Tiger.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-4.2.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-4.2.1-dist/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-4.2.1-dist/css/bootstrap-reboot.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <navbar class="navbar navbar-expand-lg navbar-dark bg-black">
+            <a class="navbar-brand big_noodle" href="#">
+                <img src="assets/Tiger.png" alt="Logo" width="75" height="75">
+                Equality Esports
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse stencil" id="mobile">
+                <div class="navbar-nav ml-5">
+                    <a class="nav-link nav-item hoverEffect bline2" style="color: #00FFD4;" href="#" id="home">Home</a>
+                    <a class="nav-link nav-item active hoverEffect" href="ourTeam.html">Our team</a>
+                </div>
+                <div class="ml-auto">
+                    <a class="fa fa-twitter text-white hblue" href="https://twitter.com/teamequality_" style="text-decoration-line: none;"></a>
+                    <a class="fa fa-youtube text-white hblue" href="https://www.youtube.com/channel/UCylPUTftZSS9DGTsX99GCEA/featured"></a>
+                </div>
+            </div>
+        </navbar>
+        <!--
+        -->
+
+
+
+
+
+        <div class="bg-dark">
+            <div class="container pb-5">
+                <div class="row">
+                    <div class="col-md-3 text-white mt-5 col-sm-12">
+                        <h1>History & Events</h1>
+                        <p>match history and match results</p>
+                        <div class="btn-group">
+                            <a role="button" class="btn btn-danger btn-outline-danger btn-lg" id="current">Current</a>
+                            <a role="button" class="btn btn-outline-info btn-lg" id="past">Past Wins</a>
+                        </div>
+
+                    </div>
+                    <div class="offset-1 col-md-6 text-white mt-5 col-sm-12">
+                        <div id="currentStuff">
+                            <h1 class="text-center">SiegePlay tournament</h1>
+                            <div class="winCards">
+                                <h2 class="bebas text-center mb-2 mt-2"><img src="assets/equality_purple.png" width="120" height="120">7 <b>-</b> 5 &nbsp;&nbsp; phoenix guild
+                                </h2>
+                            </div>
+                            <!--<div class="winCards">
+                                <h2 class="bebas ml-5 text-center mb-2 mt-2">FirstGame:<img src="assets/equality_purple.png" width="120" height="120">7 <b>-</b> 5 &nbsp;&nbsp; Other Team</h2>
+                            </div>
+                            <div class="winCards">
+                                <h2 class="bebas ml-5 text-center mb-2 mt-2">FirstGame:<img src="assets/equality_purple.png" width="120" height="120">7 <b>-</b> 5 &nbsp;&nbsp; Other Team</h2>
+                            </div>-->
+                        </div>
+                        <div id="pastwins" style="display: none">
+                            <h3>breachcharge: operation Phoenix, <br>finals:</h3>
+                            <div class="winCards">
+                                <h2 class="bebas text-center mb-2 mt-2">First Game:<img src="assets/equality_purple.png" width="120" height="120">7 <b>-</b> 2 &nbsp;&nbsp; wave
+                                </h2>
+                            </div>
+                            <div class="winCards">
+                                <h2 class="bebas text-center mb-2 mt-2">Second Game:<img src="assets/equality_purple.png" width="120" height="120">5 <b>-</b> 7 &nbsp;&nbsp; wave
+                                </h2>
+                            </div>
+                            <div class="winCards">
+                                <h2 class="bebas text-center mb-2 mt-2">Third Game:<img src="assets/equality_purple.png" width="120" height="120">7 <b>-</b> 1 &nbsp;&nbsp; wave
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us -->
+        <div class="bg-secondary" id="aboutcontainer">
+            <div class="container text-white">
+                <div class="row">
+                    <!--<div class="col-md-7 col-sm-12">
+                        <h1 style="font-size: 75px">Equality Esports</h1>
+                        <p class="text-secondary bline">founded by Mromy</p>
+                        <p>Equality known as Darkest Light at the time was founded a 7th of march 2018 as a small fortnite clan which later expanded to games such as csgo and  Rainbow six siege. </p>
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                        <h1 style="font-size: 65px" class="bline">Who are we?</h1>
+                        <p>Team Equality was founded on march 6th 2018 as a high competitive organisation. We are serious on everything like aiming to improve and grind on daily basis by training and try harding our way to the pro leagues. Our members are also mature, toxic free and highly skilled pro players which makes our team unstoppable.</p><br>
+                        <p class="">We are focusing on our Rainbow six siege team but may expand in the future.</p><br>
+                        <!--<h1 style="font-size: 65px" class="bline">Our Team</h1>
+                        <p>Currently .</p>-->
+                    <div class="col-md-5">
+                        <h1 class="bline2">About Us</h1>
+                        <p>Team Equality was founded on march 6th 2018 as a high competitive organisation. We are serious on everything like aiming to improve and grind on daily basis by training and try harding our way to the pro leagues. Our members are also mature, toxic free and highly skilled pro players which makes our team unstoppable.</p><br>
+                        <p class="">We are focusing on our Rainbow six siege team but may expand in the future.</p><br>
+                    </div>
+                    <div class=" offset-md-2 col-md-5">
+                        <h1 class="bline2">Achievements</h1>
+                        <h4>Breach Charge Operation Phoenix winners</h4>
+                        <p>We a tournament with a prize pool of £150, equality powered through the competition meeting wave at the finales, the results were Equality 7 - 2 on the first match wave 7 - 5 on the second and the last match Equality 7 - 1.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <div class="bg-black" id="footer">
+            <div class="container border-top">
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                        <img src="assets/equality_red.png">
+                    </div>
+                    <div class="text-white offset-md-2 col-md-4">
+                        <h1 class="">Contact us</h1>
+                        <a href="https://twitter.com/teamequality_" style="text-decoration-line: none;"><p class="hblue">Twitter <span class="fa-twitter fa hblue"></span></p></a>
+                        <a href="https://www.youtube.com/channel/UCylPUTftZSS9DGTsX99GCEA/featured" style="text-decoration-line: none;"><p class="hblue">Youtube <span class="fa-youtube fa hblue"></span></p></a>
+                    </div>
+                    <div class="text-white col-md-3">
+                        <h1 class="">Sponsors</h1>
+                        <a class="hblue" href="https://opseat.com/" style="text-decoration-line: none;">OPSEAT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script src="js/home.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

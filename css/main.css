@@ -1,0 +1,132 @@
+@font-face {
+    font-family: bignoodle;
+    src: url('../assets/font/bignoodletitling/big_noodle_titling.ttf');
+    font-weight: bold;
+}
+
+.big_noodle{
+    font-family: bignoodle;
+    color: white;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+
+    /*background: url("../assets/fortnite-s7-w1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+.fa-youtube:hover{
+    opacity: 0.7;
+}
+
+.fa-twitter:hover{
+    opacity: 0.7;
+    text-decoration-line: none;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+
+.bebas{
+    font-family: "Bebas Neue";
+}
+
+.comic{
+    font-family: "Comic Sans MS";
+}
+
+.stencil{
+    font-family:"USSR stencil";
+}
+
+.hoverEffect:hover{
+    color: #00FFD4!important;
+}
+
+
+.borders{
+    border: #00FFD4 solid 2px;
+}
+
+.background{
+    background-color: black;
+}
+
+.jumbotron{
+    background-image: url('../assets/r6s banner.jpg');
+    background-size: cover;
+}
+
+
+
+#kssonText{
+    height: 300px;
+}
+
+
+#byteText{
+    height: 300px;
+}
+
+
+#albinoText{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+
+#cynateText{
+    height: 300px;
+}
+
+
+#hpText{
+    height: 300px;
+}
+
+#ghoulText{
+
+}
+
+#mromyText{
+
+}
+
+
+#jdwText{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.bline{
+    border-bottom: #00FFD4 solid 5px;
+}
+
+.hblue:hover{
+    color: #00FFD4;
+}
+
+.bline2{
+    border-bottom: #00FFD4 solid 3px;
+}
+
+.text-fav{
+    color: #00FFD4;
+}
+
+.winCards{
+    border-bottom: solid 1px #00FFD4;
+    border-top: solid 1px #00FFD4;
+}
