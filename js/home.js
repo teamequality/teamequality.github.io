@@ -12,6 +12,4 @@ $(document).ready(()=>{
         $('#past').addClass('btn-info');
         $('#current').removeClass('btn-danger');
     })
-
-
 })

@@ -15,6 +15,16 @@ $(document).ready(()=>{
     const $mromyB = $('#mromyButton');
     const $ghoulT = $('#ghoulText');
     const $ghoulB = $('#ghoulButton');
+    const $kubaT = $('#kubaText');
+    const $kubaB = $('#kubaButton');
+    const $rijynT = $('#RijynText');
+    const $rijynB = $('#RijynButton');
+    const $spiderT = $('#spiderText');
+    const $spiderB = $('#spiderButton');
+    const $theoT = $('#theoText');
+    const $theoB = $('#theoButton');
+    const $keeT = $('#keeText');
+    const $keeB = $('#keeButton');
 
     $kssonB.on('click', ()=>{
         let kssonHidden = $kssonT.is(":hidden");
@@ -26,7 +36,7 @@ $(document).ready(()=>{
             $kssonB.removeClass('btn-danger');
         }
         $kssonT.toggle();
-    })
+    });
 
     $byteB.on('click', ()=>{
         let byteHidden = $byteT.is(":hidden");
@@ -38,7 +48,7 @@ $(document).ready(()=>{
             $byteB.removeClass('btn-danger');
         }
         $byteT.toggle();
-    })
+    });
 
     $albinoB.on('click', ()=>{
         let albinoHidden = $albinoT.is(":hidden");
@@ -50,7 +60,7 @@ $(document).ready(()=>{
             $albinoB.removeClass('btn-danger');
         }
         $albinoT.toggle();
-    })
+    });
 
     $cynateB.on('click', ()=>{
         let cynateHidden = $cynateT.is(":hidden");
@@ -62,7 +72,7 @@ $(document).ready(()=>{
             $cynateB.removeClass('btn-danger');
         }
         $cynateT.toggle();
-    })
+    });
 
     $hpB.on('click', ()=>{
         let hpHidden = $hpT.is(":hidden");
@@ -76,7 +86,7 @@ $(document).ready(()=>{
         }
         $hpT.toggle();
 
-    })
+    });
 
     $jdwB.on('click', ()=>{
         let jdwHidden = $jdwT.is(":hidden");
@@ -88,7 +98,7 @@ $(document).ready(()=>{
             $jdwB.removeClass('btn-danger');
         }
         $jdwT.toggle();
-    })
+    });
 
     $mromyB.on('click', ()=>{
         let mromyHidden = $mromyT.is(":hidden");
@@ -100,7 +110,7 @@ $(document).ready(()=>{
             $mromyB.removeClass('btn-danger');
         }
         $mromyT.toggle();
-    })
+    });
 
     $ghoulB.on('click', ()=>{
         let ghoulHidden = $ghoulT.is(":hidden");
@@ -112,5 +122,75 @@ $(document).ready(()=>{
             $ghoulB.removeClass('btn-danger');
         }
         $ghoulT.toggle();
-    })
+    });
+
+    $kubaB.on('click', ()=>{
+        let kubaHidden = $kubaT.is(":hidden");
+        if(kubaHidden)  {
+            $kubaB.removeClass('btn-info');
+            $kubaB.addClass('btn-danger');
+        }else{
+            $kubaB.addClass('btn-info');
+            $kubaB.removeClass('btn-danger');
+        }
+        $kubaT.toggle();
+    });
+
+    $rijynB.on('click', ()=>{
+        let rijynHidden = $rijynT.is(":hidden");
+        if(rijynHidden)  {
+            $rijynB.removeClass('btn-info');
+            $rijynB.addClass('btn-danger');
+        }else{
+            $rijynB.addClass('btn-info');
+            $rijynB.removeClass('btn-danger');
+        }
+        $rijynT.toggle();
+    });
+
+    $spiderB.on('click', ()=>{
+        let spiderHidden = $spiderT.is(":hidden");
+        if(spiderHidden)  {
+            $spiderB.removeClass('btn-info');
+            $spiderB.addClass('btn-danger');
+        }else{
+            $spiderB.addClass('btn-info');
+            $spiderB.removeClass('btn-danger');
+        }
+        $spiderT.toggle();
+    });
+
+    $theoB.on('click', ()=>{
+        let theoHidden = $theoT.is(":hidden");
+        if(theoHidden)  {
+            $theoB.removeClass('btn-info');
+            $theoB.addClass('btn-danger');
+        }else{
+            $theoB.addClass('btn-info');
+            $theoB.removeClass('btn-danger');
+        }
+        $theoT.toggle();
+    });
+
+    $keeB.on('click', ()=>{
+        let keeHidden = $keeT.is(":hidden");
+        if(keeHidden)  {
+            $keeB.removeClass('btn-info');
+            $keeB.addClass('btn-danger');
+        }else{
+            $keeB.addClass('btn-info');
+            $keeB.removeClass('btn-danger');
+        }
+        $keeT.toggle();
+    });
+
+    $('#EU').on("click", ()=>{
+        $('#EUteam').show();
+        $('#NAteam').hide();
+    });
+
+    $('#NA').on("click", ()=>{
+        $('#NAteam').show();
+        $('#EUteam').hide();
+    });
 });
