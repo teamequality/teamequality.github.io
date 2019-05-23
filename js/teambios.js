@@ -25,6 +25,10 @@ $(document).ready(()=>{
     const $theoB = $('#theoButton');
     const $keeT = $('#keeText');
     const $keeB = $('#keeButton');
+    const $devonT = $('#devonText');
+    const $devonB = $('#devonButton');
+    const $yeloT = $('#yeloText');
+    const $yeloB = $('#yeloButton');
 
     $kssonB.on('click', ()=>{
         let kssonHidden = $kssonT.is(":hidden");
@@ -172,16 +176,29 @@ $(document).ready(()=>{
         $theoT.toggle();
     });
 
-    $keeB.on('click', ()=>{
-        let keeHidden = $keeT.is(":hidden");
-        if(keeHidden)  {
-            $keeB.removeClass('btn-info');
-            $keeB.addClass('btn-danger');
+
+    $yeloB.on('click', ()=>{
+        let yeloHidden = $yeloT.is(":hidden");
+        if(yeloHidden)  {
+            $yeloB.removeClass('btn-info');
+            $yeloB.addClass('btn-danger');
         }else{
-            $keeB.addClass('btn-info');
-            $keeB.removeClass('btn-danger');
+            $yeloB.addClass('btn-info');
+            $yeloB.removeClass('btn-danger');
         }
-        $keeT.toggle();
+        $yeloT.toggle();
+    });
+
+    $devonB.on('click', ()=>{
+        let devonHidden = $devonT.is(":hidden");
+        if(devonHidden)  {
+            $devonB.removeClass('btn-info');
+            $devonB.addClass('btn-danger');
+        }else{
+            $devonB.addClass('btn-info');
+            $devonB.removeClass('btn-danger');
+        }
+        $devonT.toggle();
     });
 
     $('#EU').on("click", ()=>{

@@ -1,0 +1,11 @@
+$devonB.on('click', ()=>{
+        let devonHidden = $devonT.is(":hidden");
+        if(devonHidden)  {
+            $devonB.removeClass('btn-info');
+            $devonB.addClass('btn-danger');
+        }else{
+            $devonB.addClass('btn-info');
+            $devonB.removeClass('btn-danger');
+        }
+        $devonT.toggle();
+    });
