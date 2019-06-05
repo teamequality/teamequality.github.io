@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a374edb2-a57e-470c-ac12-292752dae8a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/teambios.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/teambios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ourTeam.html" beforeDir="false" afterPath="$PROJECT_DIR$/ourTeam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace" beforeDir="false" afterPath="$PROJECT_DIR$/workspace" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -127,28 +125,32 @@
     <session id="162739641">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.69" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="11" />
-          <entry key="html" value="413" />
+          <entry key="html" value="422" />
           <entry key="js" value="309" />
           <entry key="workspace" value="3" />
         </counts>
@@ -156,7 +158,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="11" />
-          <entry key="HTML" value="413" />
+          <entry key="HTML" value="422" />
           <entry key="JavaScript" value="309" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -187,8 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            <state relative-caret-position="493">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -200,8 +202,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ourTeam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+            <state relative-caret-position="391">
+              <caret line="285" column="76" lean-forward="true" selection-start-line="285" selection-start-column="76" selection-end-line="285" selection-end-column="76" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -224,8 +226,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/teambios.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="184" column="14" lean-forward="true" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
+            <state relative-caret-position="3128">
+              <caret line="184" column="14" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -251,8 +253,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codedump">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="472">
+              <caret line="56" column="137" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="144" />
             </state>
           </provider>
         </entry>
@@ -334,11 +336,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-220" />
-    <option name="y" value="109" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-141" />
+    <option name="y" value="165" />
     <option name="width" value="1936" />
-    <option name="height" value="1025" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -444,14 +446,19 @@
       <workItem from="1558197004506" duration="632000" />
       <workItem from="1558641150198" duration="313000" />
       <workItem from="1558641839971" duration="993000" />
+      <workItem from="1558647005418" duration="614000" />
+      <workItem from="1559137902001" duration="82000" />
+      <workItem from="1559138652332" duration="133000" />
+      <workItem from="1559139410812" duration="5000" />
+      <workItem from="1559734240277" duration="660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102603000" />
+    <option name="totallyTimeSpent" value="104097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-141" y="165" width="1936" height="1032" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -577,17 +584,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codedump">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        <state relative-caret-position="493">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/home.js">
+    <entry file="file://$PROJECT_DIR$/js/teambios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="3128">
+          <caret line="184" column="14" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -598,28 +609,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/teambios.js">
+    <entry file="file://$PROJECT_DIR$/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="184" column="14" lean-forward="true" selection-start-line="184" selection-start-column="14" selection-end-line="184" selection-end-column="14" />
+        <state>
+          <caret selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/codedump">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="472">
+          <caret line="56" column="137" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="144" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ourTeam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
+        <state relative-caret-position="391">
+          <caret line="285" column="76" lean-forward="true" selection-start-line="285" selection-start-column="76" selection-end-line="285" selection-end-column="76" />
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#navbar#0;n#body#0;n#html#0;n#!!top" expanded="true" />
